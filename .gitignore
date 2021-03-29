@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules
+
+# Editor-specific configuration
+.vscode
+
+# Notes
+*.txt
