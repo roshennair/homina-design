@@ -1,0 +1,22 @@
+{
+  "name": "homina",
+  "version": "1.0.0",
+  "description": "Homina - A cross-platform application that stores, syncs and backs up your contacts.",
+  "main": " ",
+  "scripts": {
+    "doctoc": "doctoc --title='## Table of Contents' --github ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshennair/homina.git"
+  },
+  "author": "Roshen Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roshennair/homina/issues"
+  },
+  "homepage": "https://github.com/roshennair/homina#readme",
+  "devDependencies": {
+    "doctoc": "^2.0.0"
+  }
+}
