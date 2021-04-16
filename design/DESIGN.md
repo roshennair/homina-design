@@ -39,7 +39,8 @@ The overarching scope of this project entails the design, development and deploy
 
 Here are the specific goals and success metrics used to measure the Homina project's success (based on user requirements):
 
-- Create a cross-plaform software system that allows users to store contacts online.
+- Allows users to store contacts online.
+- Allow users to access their contacts from any Internet-connected platform i.e. web, mobile
 - Sync users' smartphone contacts and Homina contacts automatically.
 - Allow users to effortlessly migrate contacts over to new devices.
 - Secure all user data with session-based authentication, SSL and password hashing.
@@ -55,7 +56,7 @@ The overall Homina project is estimated to reach completion within a timespan of
 
 | Milestone | Estimated completion date |
 | --- | --- |
-| Develop Homina design language | 30 April 2021 |
+| Develop Homina design language and logo v1 | 30 April 2021 |
 | Develop UI/UX flows | 7 May 2021 |
 | Design normalized data schema | 9 May 2021 |
 | Implement PostgreSQL database | 14 May 2021 |

@@ -6,12 +6,12 @@ Homina is a cross-platform application that stores, syncs and backs up your cont
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Architecture](#architecture)
+- [Architecture Overview](#architecture-overview)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Architecture
+## Architecture Overview
 
 - Backend:
 	- REST API: NodeJS
@@ -23,6 +23,8 @@ Homina is a cross-platform application that stores, syncs and backs up your cont
 	- Web: React
 	- Mobile: React Native
 	- Hosting & CDN: Netlify
+
+For an in-depth discussion of Homina's design and architecture, visit [Homina's official design doc](./design/DESIGN.md).
 
 ## License
 [ISC](https://choosealicense.com/licenses/isc/)
