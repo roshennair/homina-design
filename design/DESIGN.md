@@ -56,19 +56,17 @@ The overall Homina project is estimated to reach completion within a timespan of
 
 | Milestone | Estimated completion date |
 | --- | --- |
-| Develop Homina design language and logo v1 | 30 April 2021 |
-| Develop UI/UX flows | 7 May 2021 |
-| Design normalized data schema | 9 May 2021 |
-| Implement PostgreSQL database | 14 May 2021 |
-| Develop MVC-based Node.js web server | 21 May 2021 |
-| Implement session-based authentication | 28 May 2021 |
-| Design REST API endpoints | 1 June 2021 |
-| Expose REST API on the web server | 4 June 2021 |
-| Develop React front end application | 18 June 2021 |
-| Extend front end for mobile functionality with React Native | 9 July 2021 |
-| Deploy back end to Heroku | 11 July 2021 |
-| Deploy front end to Netlify | 16 July 2021 |
-| Assign custom subdomain of [roshennair.com](https://roshennair.com/) to Homina | 18 July 2021 |
+| Design normalized data schema | 29 March 2021 |
+| Implement PostgreSQL database | 5 April 2021 |
+| Develop Homina color palette and logo | 23 April 2021 |
+| Develop UI/UX designs | 7 May 2021 |
+| Develop MVC-based Node.js web server | 14 May 2021 |
+| Implement session-based authentication | 21 May 2021 |
+| Develop REST API endpoints | 28 May 2021 |
+| Develop React front end application | 11 June 2021 |
+| Extend front end for mobile functionality with React Native | 2 July 2021 |
+| Deploy back end to Heroku | 4 July 2021 |
+| Deploy front end to Netlify | 9 July 2021 |
 
 ### Non-Goals
 
