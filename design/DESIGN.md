@@ -12,6 +12,9 @@
   - [Goals](#goals)
   - [Timeline](#timeline)
   - [Non-Goals](#non-goals)
+- [Branding](#branding)
+  - [Color palette](#color-palette)
+  - [Logo](#logo)
 - [User Interfaces](#user-interfaces)
 - [System Architecture](#system-architecture)
   - [System Overview](#system-overview)
@@ -58,7 +61,7 @@ The overall Homina project is estimated to reach completion within a timespan of
 | --- | --- |
 | Design normalized data schema | 29 March 2021 |
 | Implement PostgreSQL database | 5 April 2021 |
-| Develop Homina color palette and logo | 23 April 2021 |
+| Develop Homina color palette and logo | 22 April 2021 |
 | Develop UI/UX designs | 7 May 2021 |
 | Develop MVC-based Node.js web server | 14 May 2021 |
 | Implement session-based authentication | 21 May 2021 |
@@ -77,6 +80,25 @@ As important as goals are to any project, non-goals are equally as important for
 - Add multilingual functionality.
 - Achieve profitability.
 - Design a highly aesthetic UI.
+
+## Branding
+
+Before jumping head-first into the design of Homina's UI/UX flow, I spent some time conceptualizing Homina's visual branding to simulate the branding efforts of a real-world product.
+
+### Color palette
+
+A color palette defines the visual fingerprint of a product, so it stands to reason that Homina needs a good color palette. Here's the 6-color palette I chose for Homina (with some help from [coolors.com](https://coolors.co/))
+
+<img src="./branding/color-palette.png" alt="Homina color palette" height="500px">
+
+### Logo
+
+Every business/product needs a strong logo to convey its mission and brand image, and Homina is no different. Here are some images of the final design for Homina's logo: 
+
+<img src="./branding/darkmode-logo.svg" alt="Homina darkmode logo" height="200px" style="margin-right: 50px">
+<img src="./branding/lightmode-logo.svg" alt="Homina lightmode logo" height="200px"><br/>
+<img src="./branding/darkmode-named-logo.svg" alt="Homina named darkmode logo" height="200px"><br/>
+<img src="./branding/lightmode-named-logo.svg" alt="Homina named lightmode logo" height="200px">
 
 ## User Interfaces
 
