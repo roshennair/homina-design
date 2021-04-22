@@ -14,7 +14,8 @@
   - [Non-Goals](#non-goals)
 - [Branding](#branding)
   - [Color palette](#color-palette)
-  - [Logo](#logo)
+  - [Logos](#logos)
+  - [Typography](#typography)
 - [User Interfaces](#user-interfaces)
 - [System Architecture](#system-architecture)
   - [System Overview](#system-overview)
@@ -91,7 +92,7 @@ A color palette defines the visual fingerprint of a product, so it stands to rea
 
 <img src="./branding/color-palette.png" alt="Homina color palette" height="500px">
 
-### Logo
+### Logos
 
 Every business/product needs a strong logo to convey its mission and brand image, and Homina is no different. Here are some images of the final design for Homina's logo: 
 
@@ -99,6 +100,14 @@ Every business/product needs a strong logo to convey its mission and brand image
 <img src="./branding/lightmode-logo.svg" alt="Homina lightmode logo" height="200px"><br/>
 <img src="./branding/darkmode-named-logo.svg" alt="Homina named darkmode logo" height="200px"><br/>
 <img src="./branding/lightmode-named-logo.svg" alt="Homina named lightmode logo" height="200px">
+
+### Typography
+
+The named logos (displayed above) utilize the font Josefin Sans, which will be used sparingly and is regarded as off-limits for any other product copy beyond Homina's logo. The rest of the application's UI and product copy will utilize Source Sans Pro, a highly readable and flexible font.
+
+<img src="./branding/typography.png" alt="Homina typography" height="500px">
+
+All the fonts used for the Homina project were obtained for free from [Google Fonts](https://fonts.google.com/).
 
 ## User Interfaces
 
