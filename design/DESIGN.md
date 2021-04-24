@@ -18,7 +18,7 @@
   - [Typography](#typography)
 - [User Interfaces](#user-interfaces)
   - [Sign Up](#sign-up)
-  - [Login](#login)
+  - [Log In](#log-in)
   - [Contacts](#contacts)
   - [Labels](#labels)
   - [Settings](#settings)
@@ -137,7 +137,15 @@ The following section will showcase the final rendered UI designs for each main 
 
 <span>Web sign up</span>
 
-### Login
+### Log In
+
+<img src="./ui/log-in/mobile.png" alt="Mobile log in UI" height="500px">
+
+<span>Mobile log in UI</span>
+
+<img src="./ui/log-in/web.png" alt="Web log in UI" height="500px">
+
+<span>Web log in</span>
 
 ### Contacts
 
