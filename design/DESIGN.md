@@ -17,6 +17,11 @@
   - [Logos](#logos)
   - [Typography](#typography)
 - [User Interfaces](#user-interfaces)
+  - [Sign Up](#sign-up)
+  - [Login](#login)
+  - [Contacts](#contacts)
+  - [Labels](#labels)
+  - [Settings](#settings)
 - [System Architecture](#system-architecture)
   - [System Overview](#system-overview)
   - [Front End Architecture](#front-end-architecture)
@@ -92,14 +97,21 @@ A color palette defines the visual fingerprint of a product, so it stands to rea
 
 <img src="./branding/color-palette.png" alt="Homina color palette" height="500px">
 
+<span>Homina color palette</span>
+
 ### Logos
 
 Every business/product needs a strong logo to convey its mission and brand image, and Homina is no different. Here are some images of the final design for Homina's logo: 
 
 <img src="./branding/darkmode-logo.svg" alt="Homina darkmode logo" height="200px" style="margin-right: 50px">
-<img src="./branding/lightmode-logo.svg" alt="Homina lightmode logo" height="200px"><br/>
+<img src="./branding/lightmode-logo.svg" alt="Homina lightmode logo" height="200px">
+
+<span>Darkmode and lightmode logos (without name)</span>
+
 <img src="./branding/darkmode-named-logo.svg" alt="Homina named darkmode logo" height="200px"><br/>
 <img src="./branding/lightmode-named-logo.svg" alt="Homina named lightmode logo" height="200px">
+
+<span>Darkmode and lightmode logos (name)</span>
 
 ### Typography
 
@@ -107,9 +119,31 @@ The named logos (displayed above) utilize the font Josefin Sans, which will be u
 
 <img src="./branding/typography.png" alt="Homina typography" height="500px">
 
+<span>Homina typography guide</span>
+
 All the fonts used for the Homina project were obtained for free from [Google Fonts](https://fonts.google.com/).
 
 ## User Interfaces
+
+The following section will showcase the final rendered UI designs for each main view in the Homina application. To reflect a responsive UI, each view features both a mobile and web view. All of the UI designs were created using [Figma](https://www.figma.com/).
+
+### Sign Up
+
+<img src="./ui/sign-up/mobile.png" alt="Mobile sign up UI" height="500px">
+
+<span>Mobile sign up UI</span>
+
+<img src="./ui/sign-up/web.png" alt="Web sign up UI" height="500px">
+
+<span>Web sign up</span>
+
+### Login
+
+### Contacts
+
+### Labels
+
+### Settings
 
 ## System Architecture
 
