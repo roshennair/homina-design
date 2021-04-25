@@ -149,6 +149,19 @@ The following section will showcase the final rendered UI designs for each main 
 
 ### Contacts
 
+<img src="./ui/contacts/mobile1.png" alt="Mobile contacts UI swiped down" height="500px" style="margin-right: 50px">
+<img src="./ui/contacts/mobile2.png" alt="Mobile contacts UI" height="500px">
+
+<span>Mobile contacts UI</span>
+
+<img src="./ui/contacts/tablet.png" alt="Tablet contacts UI" height="500px">
+
+<span>Tablet contacts UI</span>
+
+<img src="./ui/contacts/web.png" alt="Web contacts UI" height="500px">
+
+<span>Web contacts UI</span>
+
 ### Labels
 
 ### Settings
