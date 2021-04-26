@@ -20,6 +20,7 @@
   - [Sign Up](#sign-up)
   - [Log In](#log-in)
   - [Contacts](#contacts)
+  - [Contact Details](#contact-details)
   - [Labels](#labels)
   - [Settings](#settings)
 - [System Architecture](#system-architecture)
@@ -161,6 +162,20 @@ The following section will showcase the final rendered UI designs for each main 
 <img src="./ui/contacts/web.png" alt="Web contacts UI" height="500px">
 
 <span>Web contacts UI</span>
+
+### Contact Details
+
+<img src="./ui/contact-details/mobile.png" alt="Mobile contact details UI" height="500px">
+
+<span>Mobile contact details UI</span>
+
+<img src="./ui/contact-details/tablet.png" alt="Tablet contact details UI" height="500px">
+
+<span>Tablet contact details UI</span>
+
+<img src="./ui/contact-details/web.png" alt="Web contact details UI" height="500px">
+
+<span>Web contact details UI</span>
 
 ### Labels
 
