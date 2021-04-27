@@ -21,6 +21,8 @@
   - [Log In](#log-in)
   - [Contacts](#contacts)
   - [Contact Details](#contact-details)
+  - [Add Contact](#add-contact)
+  - [Edit Contact](#edit-contact)
   - [Labels](#labels)
   - [Settings](#settings)
 - [System Architecture](#system-architecture)
@@ -176,6 +178,34 @@ The following section will showcase the final rendered UI designs for each main 
 <img src="./ui/contact-details/web.png" alt="Web contact details UI" height="500px">
 
 <span>Web contact details UI</span>
+
+### Add Contact
+
+<img src="./ui/add-contact/mobile.png" alt="Mobile add contact UI" height="500px">
+
+<span>Mobile add contact UI</span>
+
+<img src="./ui/add-contact/tablet.png" alt="Tablet add contact UI" height="500px">
+
+<span>Tablet add contact UI</span>
+
+<img src="./ui/add-contact/web.png" alt="Web add contact UI" height="500px">
+
+<span>Web add contact UI</span>
+
+### Edit Contact
+
+<img src="./ui/edit-contact/mobile.png" alt="Mobile edit contact UI" height="500px">
+
+<span>Mobile edit contact UI</span>
+
+<img src="./ui/edit-contact/tablet.png" alt="Tablet edit contact UI" height="500px">
+
+<span>Tablet edit contact UI</span>
+
+<img src="./ui/edit-contact/web.png" alt="Web edit contact UI" height="500px">
+
+<span>Web edit contact UI</span>
 
 ### Labels
 
