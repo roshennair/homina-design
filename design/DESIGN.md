@@ -9,8 +9,9 @@
 - [Introduction](#introduction)
 - [Context](#context)
 - [Scope](#scope)
-  - [Goals](#goals)
+  - [Current Goals](#current-goals)
   - [Timeline](#timeline)
+  - [Future (Potential) Goals](#future-potential-goals)
   - [Non-Goals](#non-goals)
 - [Branding](#branding)
   - [Color palette](#color-palette)
@@ -23,8 +24,6 @@
   - [Contact Details](#contact-details)
   - [Add Contact](#add-contact)
   - [Edit Contact](#edit-contact)
-  - [Labels](#labels)
-  - [Settings](#settings)
 - [System Architecture](#system-architecture)
   - [System Overview](#system-overview)
   - [Front End Architecture](#front-end-architecture)
@@ -47,38 +46,32 @@ As David, I want to save my contacts online, so that I can access them from any 
 
 The overarching scope of this project entails the design, development and deployment of a cross-plarform, full-stack application that solves the problem of contacts storage. The following section includes the specific goals set out for the Homina project and also provides a timeline for the completion of each specific milestone during the lifetime of this project.
 
-### Goals
+### Current Goals
 
 Here are the specific goals and success metrics used to measure the Homina project's success (based on user requirements):
 
-- Allows users to store contacts online.
-- Allow users to access their contacts from any Internet-connected platform i.e. web, mobile
-- Sync users' smartphone contacts and Homina contacts automatically.
-- Allow users to effortlessly migrate contacts over to new devices.
 - Secure all user data with session-based authentication, SSL and password hashing.
+- Allows users to store, access and edit their contacts from any Internet browser i.e. web, mobile
 - Allow users to group contacts into different labels/categories
-- Update Homina contacts instantly whenever users change/update contact information.
-- Provide an intuitive, frictionless UX for users.
 
 ### Timeline
 
-The overall Homina project is estimated to reach completion within a timespan of **3 to 4 months**. The following table breaks down the various tasks/milestones of the project along with estimated completion dates:
+The following table breaks down the various features/milestones of the project along with estimated completion dates:
 
 > **Note:** These milestones and completion dates may be updated from time to time as project goals or requirements change.
 
-| Milestone | Estimated completion date |
+| Feature/Milestone | Estimated completion date |
 | --- | --- |
-| Design normalized data schema | 29 March 2021 |
-| Implement PostgreSQL database | 5 April 2021 |
-| Develop Homina color palette and logo | 22 April 2021 |
-| Develop UI/UX designs | 7 May 2021 |
-| Develop MVC-based Node.js web server | 14 May 2021 |
-| Implement session-based authentication | 21 May 2021 |
-| Develop REST API endpoints | 28 May 2021 |
-| Develop React front end application | 11 June 2021 |
-| Extend front end for mobile functionality with React Native | 2 July 2021 |
-| Deploy back end to Heroku | 4 July 2021 |
-| Deploy front end to Netlify | 9 July 2021 |
+| Account creation | 10 May 2021 |
+| Session-based authentication | 17 May 2021 |
+| Adding and editing contacts | 24 May 2021 |
+| Labelling contacts and filtering contacts by label | 31 May 2021 |
+
+### Future (Potential) Goals
+
+- Sync users' smartphone contacts and Homina contacts automatically.
+- Allow users to effortlessly migrate contacts over to new devices.
+- Provide an intuitive, frictionless UX for users.
 
 ### Non-Goals
 
@@ -206,10 +199,6 @@ The following section will showcase the final rendered UI designs for each main 
 <img src="./ui/edit-contact/web.png" alt="Web edit contact UI" height="500px">
 
 <span>Web edit contact UI</span>
-
-### Labels
-
-### Settings
 
 ## System Architecture
 
