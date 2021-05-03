@@ -23,7 +23,7 @@ CREATE TABLE contact (
   notes TEXT,
   created_at TIMESTAMPTZ DEFAULT NOW() NOT NULL,
   updated_at TIMESTAMPTZ DEFAULT NOW() NOT NULL,
-  account_id UUID REFERENCES account(id) NOT NULL,
+  account_id UUID REFERENCES account(id) NOT NULL
 );
 
 -- Setup category table
@@ -310,7 +310,7 @@ INSERT INTO country (name, alpha_2_code, alpha_3_code, calling_code) VALUES
   ('Taiwan','TW','TWN','886'),
   ('Tajikistan','TJ','TJK','992'),
   ('Tanzania','TZ','TZA','255'),
-  ('Thailand','TH','THA','66'),z
+  ('Thailand','TH','THA','66'),
   ('Timor-Leste','TL','TLS','670'),
   ('Togo','TG','TGO','228'),
   ('Tokelau','TK','TKL','690'),
