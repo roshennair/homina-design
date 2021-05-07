@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --homina-black: #1b1e22;
     --homina-yellow: #ffce1f;
     --homina-white: #f1f6f8;
     --homina-grey: #f1f6f881;
+    --button-hover: #fbda60;
+    --button-focus: #bb9920;
 }
 
 body {
@@ -20,12 +26,42 @@ body {
     text-decoration: none;
 }
 
+.link:hover {
+    color: var(--button-hover);
+}
+
+.link:focus {
+    color: var(--button-focus);
+    outline: none;
+}
+
+.primary-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    min-height: 40px;
+    background-color: var(--homina-yellow);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--homina-black);
+}
+
+.primary-button:hover {
+    background-color: var(--button-hover);
+}
+
+.primary-button:focus {
+    background-color: var(--button-focus);
+    outline: none;
+}
+
 #root {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .form-container {
@@ -33,17 +69,77 @@ body {
     max-width: 500px;
     border-radius: 10px;
     margin-top: 100px;
+    padding: 40px;
 }
 
 .form-header {
+    height: 100px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.form-logo {
+    height: 60px;
 }
 
 .form-title {
     font-weight: bold;
     font-size: 25px;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+    height: 50px;
+    border-bottom: 1px solid var(--homina-white);
+}
+
+.form-field:focus-within {
+    border-bottom-color: var(--homina-yellow);
+}
+
+.form-field label {
+    z-index: 1;
+    position: absolute;
+    bottom: 10px;
+}
+
+.form-field:focus-within label {
+    font-size: 12px;
+    top: 0;
+    bottom: 0;
+    color: var(--homina-yellow);
+}
+
+.form-field input {
+    background-color: var(--homina-black);
+    border: none;
+    color: var(--homina-white);
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    font-size: 17px;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+.form-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media only screen and (min-width: 600px) {
