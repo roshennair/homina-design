@@ -11,6 +11,14 @@ CREATE TABLE account (
   updated_at TIMESTAMPTZ DEFAULT NOW() NOT NULL
 );
 
+-- Setup reset token table
+CREATE TABLE reset_token (
+	id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+	token TEXT UNIQUE NOT NULL,
+	created_at TIMESTAMPTZ DEFAULT NOW() NOT NULL,
+	account_id UUID REFERENCES account(id) NOT NULL
+);
+
 -- Setup contact table
 CREATE TABLE contact (
   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
